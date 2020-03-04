@@ -39,3 +39,6 @@ export class ObserverService
         console.log(`No subscription found for channel with type ${type}`);
     }
 }
+
+// this._observerService.subscribe(EventName).subscribe(() => { this.doSomething(); });
+// this._observerService.publish(EventName);
